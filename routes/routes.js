@@ -113,6 +113,7 @@ router.put('/api/updateData', async (req, res) => {
     }
 });
 router.get('/api/getData', async (req, res) => {
+    
     try {
         // Extract the table name from the query parameters
         const tableName = req.query.table;
